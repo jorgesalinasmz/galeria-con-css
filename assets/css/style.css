@@ -1,0 +1,112 @@
+body{
+  background-color: #d3ab6f;
+}
+
+.home-intro {
+  background-color: #968c70;
+  padding: 20px;
+  margin-top: 100px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.home-intro h1 {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.home-intro p {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  border: solid 1px rgb(155, 122, 74);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Estilos adicionales para la página de galería */
+.gallery-heading {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  background-color: #968c70;
+  border-radius: 30px;
+}
+
+.gallery-item img {
+  border-radius: 10px; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+
+.contact-info {
+  padding: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.contact-info p {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.navbar-brand{
+  width: 30px;
+}
+
+.navbar-nav .nav-link {
+  color: white; /* Cambia el color del texto de la navegación a blanco */
+}
+
+.navbar-nav .nav-link.active {
+  color: yellow; /* Cambia el color del enlace activo a amarillo */
+}
+
+.navbar-toggler {
+  background-color: rgb(97, 97, 97); /* Cambia este color al que desees */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #000000;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
